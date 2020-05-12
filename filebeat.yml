@@ -152,7 +152,7 @@ setup.template.settings:
 #-------------------------- Elasticsearch output ------------------------------
 output.elasticsearch:
   # Array of hosts to connect to.
-  hosts: ["34.87.120.82:9200"]
+  hosts: ["ip.to.es.server:9200"] ## Must Filled, Contact PIC
   index: "pattern-dev/prod-%{+yyyy.MM.dd}" ## According to the name system, use qoutation mark
 
   # Protocol - either `http` (default) or `https`.
